@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">FiveZero bullish and bearish pattern geometry</title>
+  <desc id="desc">Mirrored XABCD harmonic structures with AB over XA, BC over AB, and CD over BC ratio ranges.</desc>
+  <rect width="1200" height="500" rx="24" fill="#0f172a"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="300" y="48" fill="#e2e8f0" font-size="28" font-weight="700" text-anchor="middle">Bullish FiveZero</text>
+    <text x="900" y="48" fill="#e2e8f0" font-size="28" font-weight="700" text-anchor="middle">Bearish FiveZero</text>
+
+    <g fill="none" stroke="#22c55e" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+      <path d="M95 300 L205 155 L325 340 L475 105 L555 225"/>
+    </g>
+    <g fill="none" stroke="#a855f7" stroke-dasharray="10 9" stroke-width="3">
+      <path d="M95 300 L325 340"/>
+      <path d="M205 155 L475 105"/>
+      <path d="M325 340 L555 225"/>
+    </g>
+    <g fill="#f8fafc" font-size="24" font-weight="700" text-anchor="middle">
+      <text x="95" y="335">X</text><text x="205" y="140">A</text><text x="325" y="380">B</text><text x="475" y="90">C</text><text x="555" y="260">D</text>
+    </g>
+    <g fill="#c4b5fd" font-size="18" font-weight="600" text-anchor="middle">
+      <text x="205" y="350">AB/XA 1.13–1.618</text>
+      <text x="340" y="120">BC/AB 1.618–2.24</text>
+      <text x="455" y="310">CD/BC ≈ 0.50</text>
+    </g>
+    <path d="M555 225 C575 205 585 175 598 140" fill="none" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M590 150 L600 134 L604 153" fill="#38bdf8"/>
+
+    <g fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+      <path d="M645 200 L725 320 L875 85 L995 270 L1105 125"/>
+    </g>
+    <g fill="none" stroke="#a855f7" stroke-dasharray="10 9" stroke-width="3">
+      <path d="M645 200 L875 85"/>
+      <path d="M725 320 L995 270"/>
+      <path d="M875 85 L1105 125"/>
+    </g>
+    <g fill="#f8fafc" font-size="24" font-weight="700" text-anchor="middle">
+      <text x="645" y="185">X</text><text x="725" y="355">A</text><text x="875" y="70">B</text><text x="995" y="305">C</text><text x="1105" y="110">D</text>
+    </g>
+    <g fill="#c4b5fd" font-size="18" font-weight="600" text-anchor="middle">
+      <text x="760" y="120">AB/XA 1.13–1.618</text>
+      <text x="860" y="300">BC/AB 1.618–2.24</text>
+      <text x="1000" y="105">CD/BC ≈ 0.50</text>
+    </g>
+    <path d="M1105 125 C1128 150 1145 180 1155 215" fill="none" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M1143 204 L1157 221 L1160 199" fill="#38bdf8"/>
+
+    <text x="600" y="455" fill="#94a3b8" font-size="18" text-anchor="middle">Five confirmed wick pivots • mirrored long and short setups • entry after D confirmation</text>
+  </g>
+</svg>

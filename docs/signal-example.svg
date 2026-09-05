@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Bullish FiveZero signal example</title>
+  <desc id="desc">Bullish XABCD geometry, confirmed D entry, target at C, and stop below D.</desc>
+  <rect width="1200" height="560" rx="24" fill="#f8fafc"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <path d="M70 100 H1140 M70 190 H1140 M70 280 H1140 M70 370 H1140 M70 460 H1140"/>
+    <path d="M130 65 V500 M310 65 V500 M490 65 V500 M670 65 V500 M850 65 V500 M1030 65 V500"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 345 L300 200 L500 390 L770 105 L930 245" stroke="#16a34a" stroke-width="8"/>
+    <path d="M120 345 L500 390 M300 200 L770 105 M500 390 L930 245" stroke="#9333ea" stroke-width="3" stroke-dasharray="11 9"/>
+    <path d="M930 245 C970 215 1000 175 1030 125" stroke="#0ea5e9" stroke-width="5"/>
+    <path d="M1018 137 L1035 116 L1037 143" fill="#0ea5e9"/>
+    <path d="M930 105 H1110" stroke="#22c55e" stroke-width="3" stroke-dasharray="9 7"/>
+    <path d="M930 275 H1110" stroke="#ef4444" stroke-width="3" stroke-dasharray="9 7"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="600" y="45" fill="#0f172a" font-size="30" font-weight="700" text-anchor="middle">Bullish FiveZero completion</text>
+    <g fill="#0f172a" font-size="25" font-weight="700" text-anchor="middle">
+      <text x="120" y="380">X</text><text x="300" y="180">A</text><text x="500" y="430">B</text><text x="770" y="88">C</text><text x="930" y="235">D</text>
+    </g>
+    <g fill="#7e22ce" font-size="19" font-weight="600" text-anchor="middle">
+      <text x="305" y="405">AB/XA 1.13–1.618</text>
+      <text x="535" y="135">BC/AB 1.618–2.24</text>
+      <text x="755" y="345">CD/BC ≈ 0.50</text>
+    </g>
+    <text x="1040" y="98" fill="#15803d" font-size="19" font-weight="700">target C</text>
+    <text x="1040" y="300" fill="#b91c1c" font-size="19" font-weight="700">stop behind D</text>
+    <circle cx="930" cy="245" r="9" fill="#0ea5e9"/>
+    <text x="942" y="225" fill="#0369a1" font-size="18" font-weight="700">confirmed D</text>
+    <text x="600" y="525" fill="#475569" font-size="18" text-anchor="middle">The detector evaluates all ratios together and emits one replay-safe setup.</text>
+  </g>
+</svg>
